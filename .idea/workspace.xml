@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db732b11-1fe5-4aba-b10c-8d6aee8969bb" name="Changes" comment="split gc-coffee, kdt-react-order-ui" />
+    <list default="true" id="db732b11-1fe5-4aba-b10c-8d6aee8969bb" name="Changes" comment="split gc-coffee, kdt-react-order-ui">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gc-coffee/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gc-coffee/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +57,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/admin/Desktop/gccoffee/gccoffee&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;c38ab4f31a7b7b13a8a2625561184454&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;8b08bb2b91576412d9a299d78fe57619&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -74,6 +77,13 @@
       <recent name="com.example.gccoffee.repository" />
       <recent name="com.example.gccoffee.model" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GccoffeeApplication">
     <configuration name="EmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -138,7 +148,10 @@
       <workItem from="1664190371402" duration="174000" />
       <workItem from="1664190607304" duration="1893000" />
       <workItem from="1664192539665" duration="1005000" />
-      <workItem from="1664525554001" duration="3187000" />
+      <workItem from="1664525554001" duration="3416000" />
+      <workItem from="1664534189666" duration="102000" />
+      <workItem from="1664534307787" duration="143000" />
+      <workItem from="1664534803829" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="create controller">
       <created>1664526002980</created>
@@ -178,7 +191,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
