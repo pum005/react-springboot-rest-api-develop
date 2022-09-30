@@ -8,4 +8,4 @@ export function SummaryItem({productName, count}) {
             </h6>
         </div>
     );
-}
+}gu
