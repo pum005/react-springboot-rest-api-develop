@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Grids & Circles</title>
+</head>
+<body>
+<h1>Grids & Circles</h1>
+<h2>review Management</h2>
+<main>
+    <form th:action="@{/reviews}" method="post">
+        <div class="mb-3">
+            <label for="productId" class="form-label">product id</label>
+            <input type="text" class="form-control" id="productId" name="productId" th:value="${productId}">
+        </div>
+        <div class="mb-3">
+            <label for="title" class="form-label">title</label>
+            <input type="text" class="form-control" id="title" name="title">
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label">content</label>
+            <textarea class="form-control"
+                      id="content"
+                      name="content"
+                      rows="3"
+                      style="height: 200px"
+                      placeholder="내용을 입력해주세요"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">추가</button>
+    </form>
+</main>
+</body>
+</html>
