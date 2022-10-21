@@ -19,12 +19,12 @@ public class ProductController {
     public String productsPage(Model model) {
         var products = productService.getAllProducts();
         model.addAttribute("products", products);
-        return "product-list";
+        return "product/product-list";
     }
 
     @GetMapping("new-product")
     public String newProductPage() {
-        return "new-product";
+        return "product/new-product";
     }
 
     @PostMapping("/products")
